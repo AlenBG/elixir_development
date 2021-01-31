@@ -6,6 +6,6 @@ defmodule F do
     IO.puts "Lenght : @{String.lenght(longer_string)}"
     IO.puts "Contain coding? #{String.contains?(string, "coding")}"
     IO.puts "Contain coding? #{String.contains?(longer_string, "coding")}"
-    Io.puts "First - #{String.first(string)}"
+    IO.puts "First - #{String.first(string)}"
   end
 end
